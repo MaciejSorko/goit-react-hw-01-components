@@ -1,0 +1,31 @@
+.transactions_history {
+  margin: 50px auto;
+  text-align: center;
+  background-color: black;
+}
+
+.table_head {
+  color: white;
+  background-color: lightskyblue;
+}
+
+.table_head_column {
+  padding: 10px;
+  width: 33%;
+}
+
+.transaction_type {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  text-transform: capitalize;
+}
+.transaction_type,
+.transaction_amount {
+  padding: 10px;
+}
+
+.table_row {
+  color: white;
+  background-color: gray;
+}
